@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="ir.ane.classmate.app.Menu">
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+            android:orientation="vertical"
+                  android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Class Name:"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"/>
+        <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etClassName"
+                android:layout_gravity="center_horizontal"
+                android:hint="Class Name"
+                />
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:id="@+id/btnStartStop"
+            android:layout_gravity="center_horizontal"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Students"
+            android:id="@+id/btnAddStudents"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvStudentscount"
+                android:text="0"/>
+
+    </LinearLayout>
+</FrameLayout>
